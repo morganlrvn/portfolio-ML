@@ -1,0 +1,99 @@
+{
+    "title-home": "Home",
+    "title-experiences": "Professional Experience",
+    "title-projects": "Projects",
+    "title-contact": "Contact Me!",
+    "contact": "Contact",
+    "hello": "Hello, I'm Morgan!",
+    "introduction": "Web developer based in Montreal, passionate about PHP, Drupal, and Vue.js, with 3 years of experience in Back-end (PHP Symfony, Drupal) and Front-end (HTML, CSS, JavaScript). I have also played a key role as a Scrum Master, improving team processes and productivity in Agile environments. Currently, I am exploring React and expanding my portfolio to showcase my projects. Curious and driven by innovation, I am looking for opportunities to leverage my technical skills and experience within a dynamic team.",
+    "learn_more": "Learn more about me",
+    "projects": {
+        "title": "Projects",
+        "price_calculator": {
+            "title": "Price Calculator",
+            "description": "A PHP/Vue.js tool to calculate vehicle prices with associated fees.",
+            "button": "See more"
+        },
+        "drone_portfolio": {
+            "title": "Drone Pilot Portfolio",
+            "description": "A portfolio for a drone pilot showcasing skills and services with a clean and professional interface.",
+            "status": "The project is airborne... but the drone is encountering some turbulence! Please wait.",
+            "button": "Click me ! 🚁",
+            "afterclick": "Coming soon !"
+        },
+        "memz": {
+            "title": "Memz",
+            "description": "A social platform for creating, sharing, and storing memes individually or in groups.",
+            "status": "Currently brainstorming… Please wait. 💡",
+            "button": "Click to learn more about the project",
+            "afterclick": "Just a little more patience!"
+        }
+    },
+    "experiences": [
+        {
+            "date": "February 2022 - September 2023",
+            "title": "Web Developer Drupal - PHP Symfony",
+            "company": "Sopra Steria",
+            "localisation": "Nantes, France",
+            "descriptionTitle": "Maintenance and evolution of a showcase website using Drupal (PHP)",
+            "descriptionPoints": [
+                "Migration from Drupal 8 to Drupal 9 with performance optimization",
+                "Development of Symfony features to enhance interactivity",
+                "Bug fixes and site security",
+                "Creation of a mini-site for marketing campaigns",
+                "Custom solutions to optimize business processes"
+            ],
+            "skills": [
+                "Drupal",
+                "PHP/Symfony",
+                "JavaScript",
+                "HTML/CSS",
+                "MySQL"
+            ]
+        },
+        {
+            "date": "February 2021 - September 2023",
+            "title": "PHP Developer",
+            "company": "Sopra Steria",
+            "localisation": "Nantes, France",
+            "descriptionTitle": "Development and maintenance of PHP applications for the energy sector",
+            "descriptionPoints": [
+                "Maintenance and development of PHP applications",
+                "Tests, deployment of REST APIs and automation of tests",
+                "Optimization of PL/SQL procedures and deployment via webSSO",
+                "Role of Scrum Master, improving team performance"
+            ],
+            "skills": [
+                "PHP",
+                "SQLDeveloper",
+                "RobotFramework"
+            ]
+        },
+        {
+            "date": "October 2019 - September 2020",
+            "title": "Project Management Assistant (SIE) in work-study program",
+            "company": "Naval Group",
+            "localisation": "Brest, France",
+            "descriptionTitle": "Work-study program at Naval Group Brest as a Project Management Assistant (SIE)",
+            "descriptionPoints": [],
+            "skills": [
+                "Project Management"
+            ]
+        },
+        {
+            "date": "June 2019 - September 2019",
+            "title": "Project Management Assistant (SIE) in work-study program",
+            "company": "Technical University of Denmark (DTU)",
+            "localisation": "Copenhagen, Denmark",
+            "descriptionTitle": "Technical internship (3 months) at DTU on the analysis and modeling of energy data",
+            "descriptionPoints": [],
+            "skills": [
+                "R"
+            ]
+        }
+    ],
+    "contact-name": "Name",
+    "contact-mail": "Email",
+    "contact-message": "Message",
+    "title-send": "Send"
+}

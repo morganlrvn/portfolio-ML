@@ -1,0 +1,189 @@
+#projects {
+  padding-top: 17vh;
+}
+
+.projects-section {
+  background-color: var(--primary-bg);
+  text-align: center;
+  padding: 40px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Adds space between cards */
+  justify-content: center;
+  /* Centers the cards */
+}
+
+.project-card {
+  width: 300px;
+  /* Set a fixed width for each card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid var(--secondary-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.project-card-content {
+  flex-grow: 1;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.project-card h4 {
+  font-size: 20px;
+  color: var(--primary-bg);
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: var(--primary-bg);
+  margin-bottom: 15px;
+}
+
+.technologies {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.project-link {
+  color: var(--primary-bg);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.project-status {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-size: 1.1rem !important;
+  text-align: center !important;
+  padding: 8px !important;
+  border-radius: 10px !important;
+  background-color: #eee !important;
+  color: #444 !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  margin: 30px auto !important;
+  max-width: 80% !important;
+  font-style: italic;
+}
+
+.chargement {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.troll-image.disabled {
+  pointer-events: none !important;
+  opacity: 0.5 !important;
+}
+
+/* Liste des compétences */
+.techno-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  display: inline;
+  flex-wrap: wrap;
+}
+
+/* Style des compétences avec agrandissement */
+.techno-list li {
+  display: inline-block;
+  background-color: var(--primary-bg) !important;
+  color: var(--title-white) !important;
+  padding: 5px 10px;
+  /* Réduire la taille du padding */
+  margin-right: 10px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  /* Réduire la taille des compétences */
+  transition: transform 0.2s ease-in-out;
+}
+
+.techno-list li:hover {
+  transform: scale(1.1);
+}
+
+.troll-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* Aligne verticalement texte et image */
+  gap: 4px;
+  /* Espacement entre le texte et l'image */
+  max-width: 80%;
+}
+
+.troll-text {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+  text-align: left;
+  /* Alignement naturel pour du texte */
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  /* Réduit l'espacement vertical */
+  overflow-wrap: break-word;
+  /* Autorise le retour à la ligne */
+}
+
+.troll-image {
+  width: 33px;
+  height: auto;
+  margin: 0;
+  margin-inline: 8px;
+  /* Espacement horizontal autour de l'image */
+  margin-bottom: 0;
+  /* Supprime l'espacement vertical */
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}

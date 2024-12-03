@@ -1,0 +1,89 @@
+/* Section contact */
+#contact {
+    background-color: var(--primary-bg);
+    padding: 20px 0;
+    /* Ajout d'un peu de padding pour aérer la section */
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 2rem;
+    /* Taille du titre */
+    margin-bottom: 20px;
+    color: var(--title-white);
+}
+
+/* Formulaire */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-bg);
+    border-radius: 10px;
+}
+
+/* Labels du formulaire */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--title-white);
+}
+
+/* Champs de saisie (input, textarea) */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-bg);
+    font-size: 1rem;
+    color: var(--primary-bg);
+}
+
+/* Zone de texte */
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* Bouton de soumission */
+.submit-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: var(--third-bg);
+    /* Bleu pour le bouton */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet de survol sur le bouton */
+.submit-btn:hover {
+    background-color: var(--third-bg-darker);
+}
+
+/* Alignement et taille des icônes de la liste de compétences */
+.skills-list li {
+    display: inline-block;
+    background-color: var(--third-bg);
+    /* Couleur uniforme avec le bouton */
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    /* Réduit la taille des compétences */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Effet au survol des compétences */
+.skills-list li:hover {
+    transform: scale(1.1);
+}

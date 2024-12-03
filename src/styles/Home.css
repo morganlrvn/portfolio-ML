@@ -1,0 +1,119 @@
+/* Section principale */
+#home {
+    margin-top: -15vh;
+}
+
+.home-section {
+    padding: 37vh 17vh 17vh 17vh;
+    background-color: var(--primary-bg);
+    /* Fond clair pour la section */
+    min-height: 100vh;
+}
+
+/* Conteneur pour disposition en flexbox (texte à gauche, image à droite) */
+.content-container {
+    display: flex;
+    flex-direction: row;
+    /* Alignement horizontal */
+    align-items: center;
+    /* Centrer les éléments verticalement */
+    justify-content: space-between;
+    /* Espacement entre texte et image */
+    flex-wrap: wrap;
+    /* Permet de revenir à la ligne sur petits écrans */
+}
+
+/* Section de texte à gauche */
+.intro {
+    flex: 1;
+    max-width: 600px;
+    /* Limiter la largeur du texte */
+    text-align: left;
+}
+
+/* Titre */
+.intro h1 {
+    font-size: 2rem;
+    color: var(--secondary-bg);
+    margin-bottom: 20px;
+}
+
+/* Paragraphe */
+.intro p {
+    font-size: 1.1rem;
+    color: var(--secondary-bg);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Boutons de contact (icônes) */
+.contact-buttons {
+    margin-top: 20px;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin: 0 15px;
+    color: var(--secondary-bg);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-icon:hover {
+    color: var(--third-bg);
+    /* Changer la couleur au survol */
+}
+
+/* Bouton "En savoir plus" */
+.about-more-button {
+    margin-top: 30px;
+}
+
+.about-more-button a {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: var(--third-bg);
+    color: var(--secondary-bg);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.about-more-button a:hover {
+    background-color: var(--third-bg-darker);
+}
+
+/* Section de l'image */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home-image {
+    max-width: 100%;
+    width: 400px;
+    /* Limite la taille de l'image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--primary-bg);
+}
+
+/* Responsivité : sur petits écrans, empiler texte et image */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        /* Empiler le texte au-dessus de l'image sur petits écrans */
+        align-items: center;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .image-container {
+        margin-top: 20px;
+    }
+}

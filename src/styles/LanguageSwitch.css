@@ -1,0 +1,55 @@
+.language-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 27px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--title-white);
+    margin-left: 20px;
+}
+
+.switch-thumb {
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 30px;
+    height: 27px;
+    background-image: url('../assets/uk.svg');
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.switch-thumb.french {
+    left: 13px;
+    background-image: url('../assets/france.svg');
+    filter: grayscale(30%) brightness(90%);
+    background-size: 113% 400%;
+    background-position: -4px 50%;
+    background-repeat: no-repeat;
+}
+
+.switch-thumb.english {
+    left: -1px;
+    background-image: url('../assets/uk.svg');
+    background-size: 119% 400%;
+    background-position: -4px 50%;
+    background-repeat: no-repeat;
+    filter: grayscale(30%) brightness(90%);
+}
+
+.text-color {
+    color: white;
+    -webkit-text-stroke: 0.35px black;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,101 @@
+{
+  "title-home": "Accueil",
+  "title-experiences": "Expériences Professionnelles",
+  "title-projects": "Projets",
+  "title-contact": "Contacte-moi !",
+  "contact": "Contact",
+  "hello": "Salut moi c'est Morgan !",
+  "introduction": "Développeur web basé à Montréal, passionné par le PHP, Drupal, et Vue.js, avec 3 ans d'expérience en Back-end (PHP Symfony, Drupal) et Front-end (HTML, CSS, JavaScript). J'ai également joué un rôle clé en tant que Scrum Master, contribuant à l'amélioration des processus et à la productivité de l'équipe dans des environnements Agile. Actuellement, j'explore React et enrichis mon portfolio pour partager mes projets. Curieux et motivé par l'innovation, je suis à la recherche d'opportunités pour mettre à profit mes compétences techniques et mon expérience au sein d'une équipe dynamique.",
+  "learn_more": "En savoir plus sur moi",
+  "title": "Projets",
+  "description": "Voici quelques projets sur lesquels j'ai travaillé...",
+  "projects": {
+    "title": "Projets",
+    "price_calculator": {
+      "title": "Calculateur de Prix",
+      "description": "Outil en PHP/Vue.js pour calculer le prix des véhicules avec des frais associés.",
+      "button": "Voir plus"
+    },
+    "drone_portfolio": {
+      "title": "Portfolio - Pilote de Drones",
+      "description": "Portfolio pour un pilote de drone mettant en valeur ses compétences et services, avec une interface simple et professionnelle.",
+      "status": "Le projet est en vol... mais le drone rencontre des turbulences ! Veuillez patienter.",
+      "button": "Clique-Moi ! 🚁",
+      "afterclick": "Bientôt disponible !"
+    },
+    "memz": {
+      "title": "Memz",
+      "description": "Réseau social permettant de créer, partager et stocker des memes de manière individuelle ou en groupe.",
+      "status": "Actuellement en train de faire chauffer les neurones… Veuillez patienter. 💡",
+      "button": "Clique-Moi 👀",
+      "afterclick": "Il va falloir attendre encore un peu !"
+    }
+  },
+  "experiences": [
+    {
+      "date": "Février 2022 - Septembre 2023",
+      "title": "Développeur Web Drupal - PHP Symfony",
+      "company": "Sopra Steria",
+      "localisation": "Nantes, France",
+      "descriptionTitle": "Maintenance et évolution d'un site vitrine sous Drupal (PHP)",
+      "descriptionPoints": [
+        "Migration Drupal 8 à Drupal 9 avec optimisation des performances",
+        "Développement de fonctionnalités Symfony pour améliorer l'interactivité",
+        "Correction d'anomalies et sécurisation du site",
+        "Création d'un mini-site pour campagne marketing",
+        "Solutions personnalisées pour optimiser les processus métier"
+      ],
+      "skills": [
+        "Drupal",
+        "PHP/Symfony",
+        "JavaScript",
+        "HTML/CSS",
+        "MySQL"
+      ]
+    },
+    {
+      "date": "Février 2021 - Septembre 2023",
+      "title": "Développeur PHP",
+      "company": "Sopra Steria",
+      "localisation": "Nantes, France",
+      "descriptionTitle": "Développement et maintenance d'applications PHP pour le secteur de l'énergie",
+      "descriptionPoints": [
+        "Maintenance et développement d'applications PHP",
+        "Tests, déploiement d'API REST et automatisation de tests",
+        "Optimisation de procédures PL/SQL et déploiement via webSSO",
+        "Rôle de Scrum Master, améliorant la performance de l'équipe"
+      ],
+      "skills": [
+        "PHP",
+        "SQLDeveloper",
+        "RobotFramework"
+      ]
+    },
+    {
+      "date": "Octobre 2019 - Septembre 2020",
+      "title": "Assistant Chef de Projet SIE en alternance",
+      "company": "Naval Group",
+      "localisation": "Brest, France",
+      "descriptionTitle": "Alternance chez Naval Group Brest en tant qu'Assistant Chef de Projet SIE",
+      "descriptionPoints": [],
+      "skills": [
+        "Gestion de Projet"
+      ]
+    },
+    {
+      "date": "Juin 2019 - Septembre 2019",
+      "title": "Assistant Chef de Projet SIE en alternance",
+      "company": "Technical University of Denmark (DTU)",
+      "localisation": "Copenhague, Danemark",
+      "descriptionTitle": "Stage Technique (3 mois) à DTU sur l'analyse et la modélisation de données énergétiques",
+      "descriptionPoints": [],
+      "skills": [
+        "R"
+      ]
+    }
+  ],
+  "contact-name": "Nom",
+  "contact-mail": "Email",
+  "contact-message": "Message",
+  "title-send": "Envoyer"
+}

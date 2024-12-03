@@ -1,0 +1,134 @@
+.helicopter-container {
+    position: relative;
+}
+
+.helicopter-button {
+    position: relative;
+    z-index: 2;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--primary-bg);
+    border: 2px solid var(--secondary-bg);
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+    display: flex;
+    margin: auto;
+    color: var(--title-white);
+    border-color: var(--secondary-bg);
+}
+
+
+.helicopter-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.helicopter-button:active {
+    color: var(--third-bg);
+    border-color: var(--third-bg);
+    transform: scale(1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.helicopter-emoji {
+    position: absolute;
+    top: 0;
+    right: -1000px;
+    /* L'hélicoptère commence juste à droite de l'écran */
+    font-size: 2rem;
+    z-index: 99;
+
+}
+
+.move-helicopter {
+    animation: flyAnimation 3s forwards;
+}
+
+@keyframes flyAnimation {
+    0% {
+        top: 0;
+        right: -800px;
+        transform: scale(1);
+    }
+
+    50% {
+        top: -45px;
+        right: 25%;
+        transform: scale(1.2);
+    }
+
+    100% {
+        top: -100px;
+        right: -500%;
+        transform: scale(0.8);
+    }
+}
+
+.move-button {
+    animation: buttonMove 1s forwards;
+}
+
+@keyframes buttonMove {
+    0% {
+        top: 0;
+        transform: scale(1);
+    }
+
+    20% {
+        top: -5px;
+        right: 5%;
+        transform: scale(1.2);
+    }
+
+    100% {
+        top: -100px;
+        right: -500%;
+        transform: scale(0.8);
+    }
+}
+
+.bouton-saute {
+    animation: saut 2s infinite;
+    transform: translateY(0);
+}
+
+@keyframes saut {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.loading-text {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    position: absolute;
+    top: -15px;
+    /* Décale un peu plus haut le texte, ajuste la valeur selon ton besoin */
+    left: 50%;
+    /* Centre le texte horizontalement par rapport au bouton */
+    transform: translateX(-50%);
+    /* Ajuste l'alignement du texte */
+    width: 80%;
+    text-align: center;
+    opacity: 0;
+    /* Texte invisible au départ */
+    transition: opacity 0.5s ease-in-out;
+    /* Ajoute une transition douce à l'apparition du texte */
+}
+
+.loading-text.visible {
+    opacity: 1;
+    /* Texte visible lorsqu'il a la classe .visible */
+}

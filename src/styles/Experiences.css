@@ -1,0 +1,208 @@
+/* Conteneur principal */
+#experiences {
+    font-size: 0.9rem;
+    padding-top: 17vh;
+}
+
+/* Style général pour la section des expériences */
+.section.titre-section h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    /* Réduire la taille du titre */
+    margin-bottom: 20px;
+}
+
+/* Liste des actions avec icônes */
+.description-list {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: var(--primary-bg) !important;
+}
+
+/* Style des éléments de la liste */
+.description-list li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 30px;
+    font-size: 0.9rem;
+    /* Réduire la taille des éléments */
+    line-height: 1.4;
+}
+
+/* Icône avant chaque élément de la liste */
+.description-list li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+    /* Réduire la taille de l'icône */
+    color: var(--primary-bg);
+    margin-top: 2px;
+}
+
+/* Liste des compétences */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    /* Réduire la taille des compétences */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Conteneur principal */
+
+/* Liste des actions avec icônes */
+.description-list {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    /* Réduire la taille de police des descriptions */
+    line-height: 1.4;
+    /* Réduire l'espacement des lignes */
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Liste de points pour chaque expérience */
+.experience-points {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.vertical-timeline-element-content-arrow {
+    border-left: 10px solid var(--third-bg-darker);
+}
+
+/* Style des éléments de la liste */
+.description-list li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 30px;
+    font-size: 0.9rem;
+    /* Réduire la taille des éléments */
+    line-height: 1.4;
+}
+
+/* Icône avant chaque élément de la liste */
+.description-list li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1rem;
+    /* Réduire la taille de l'icône */
+    color: var(--primary-bg);
+    margin-top: 2px;
+}
+
+/* Liste des compétences */
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 0.9rem;
+    /* Réduire la taille des compétences */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style des compétences avec agrandissement */
+.skills-list li {
+    display: inline-block;
+    background-color: var(--primary-bg);
+    color: var(--title-white);
+    padding: 5px 10px;
+    /* Réduire la taille du padding */
+    margin-right: 10px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    /* Réduire la taille des compétences */
+    transition: transform 0.2s ease-in-out;
+}
+
+.skills-list li:hover {
+    transform: scale(1.1);
+}
+
+/* Barre verticale centrale */
+.vertical-timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background-color: var(--third-bg-darker);
+    transform: translateX(-50%);
+    z-index: 0;
+    /* Positionne la barre derrière les autres éléments */
+}
+
+/* Icônes */
+.vertical-timeline-element-icon {
+    background-color: var(--secondary-bg);
+    color: var(--primary-bg);
+    z-index: 1;
+}
+
+/* Vertical Timeline */
+.vertical-timeline-element-title {
+    font-size: 1.4rem;
+    margin: -4px -4px;
+    font-weight: bold;
+    color: var(--primary-bg) !important;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: var(--primary-bg);
+}
+
+/* Titre de la description */
+.description-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--primary-bg) !important;
+}
+
+/* Conteneur avec bordure bleue */
+.company-logo-wrapper {
+    width: 71px !important;
+    height: 72px !important;
+    min-width: 71px !important;
+    min-height: 71px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px;
+    box-sizing: content-box;
+}
+
+/* Image de l'icône, cercle blanc à l'intérieur */
+.company-logo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: contain;
+    z-index: 1;
+    padding: 2px;
+}
+
+.custom-date {
+    color: white !important;
+}
