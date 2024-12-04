@@ -1,31 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import HelicopterButton from './HelicopterButton';
 import MemzButton from './MemzButton';
 import '../styles/Projects.css';
-import troll from '../assets/troll.png';
 import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
-  const [trollVisible, setTrollVisible] = useState(false);
-  const [trollLoaded, setTrollLoaded] = useState(false);
-
-  const handleClickMemz = () => {
-    // Retirer immédiatement la classe "helicopter-button" du bouton
-    const button = document.getElementById('memz-button');
-    if (button) {
-      button.classList.remove('helicopter-button'); // Retirer la classe immédiatement
-    }
-
-    // Ensuite, déclencher l'affichage du troll
-    setTrollVisible(true);  // Montre immédiatement le troll
-    setTrollLoaded(false);  // Définir comme non chargé par défaut
-
-    // Simule un délai pour "charger" le troll
-    setTimeout(() => {
-      setTrollLoaded(true); // Après 1.5s, le troll est chargé
-    }, 1500);
-  };
   const { t } = useTranslation();
+
   const projects = [
     {
 
