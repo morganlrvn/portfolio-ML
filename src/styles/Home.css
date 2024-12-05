@@ -1,6 +1,10 @@
 /* Section principale */
 #home {
-    margin-top: -15vh;
+    margin-top: -18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-section {

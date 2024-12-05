@@ -18,15 +18,15 @@
             "title": "Drone Pilot Portfolio",
             "description": "A portfolio for a drone pilot showcasing skills and services with a clean and professional interface.",
             "status": "The project is airborne... but the drone is encountering some turbulence! Please wait.",
-            "button": "Click me ! 🚁",
+            "button": "Click me 🚁",
             "afterclick": "Coming soon !"
         },
         "memz": {
             "title": "Memz",
             "description": "A social platform for creating, sharing, and storing memes individually or in groups.",
             "status": "Currently brainstorming… Please wait. 💡",
-            "button": "Click to learn more about the project",
-            "afterclick": "Just a little more patience!"
+            "button": "Click me 👀",
+            "afterclick": "Be a little more patience!"
         }
     },
     "experiences": [

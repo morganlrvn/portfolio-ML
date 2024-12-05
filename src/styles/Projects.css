@@ -159,7 +159,7 @@
   /* Aligne verticalement texte et image */
   gap: 4px;
   /* Espacement entre le texte et l'image */
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .troll-text {
@@ -182,7 +182,7 @@
   margin: 0;
   margin-inline: 8px;
   /* Espacement horizontal autour de l'image */
-  margin-bottom: 0;
+  margin-bottom: 16px;
   /* Supprime l'espacement vertical */
   opacity: 1;
   transition: opacity 0.3s ease;

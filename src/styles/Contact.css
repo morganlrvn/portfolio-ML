@@ -18,6 +18,7 @@
     padding: 20px;
     background-color: var(--primary-bg);
     border-radius: 10px;
+    width: 50%;
 }
 
 /* Labels du formulaire */

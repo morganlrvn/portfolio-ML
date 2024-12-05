@@ -15,7 +15,7 @@ import Logo from './assets/logo1-light.png';
 function App() {
   const [activeLink, setActiveLink] = useState('home');
   const { i18n } = useTranslation();
-
+  
   React.useEffect(() => {
     Events.scrollEvent.register('begin', function () { });
     Events.scrollEvent.register('end', function () { });
@@ -26,6 +26,7 @@ function App() {
     };
   }, []);
 
+
   const handleToggleLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
@@ -33,7 +34,8 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div class="app-container">
+    <div>
+      {/* Barre de navigation */}
       <nav>
         <img
           src={Logo}
