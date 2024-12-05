@@ -2,7 +2,6 @@
 #contact {
     background-color: var(--primary-bg);
     padding: 20px 0;
-    /* Ajout d'un peu de padding pour aérer la section */
 }
 
 #contact h3 {
@@ -15,7 +14,6 @@
 
 /* Formulaire */
 .contact-form {
-    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: var(--primary-bg);

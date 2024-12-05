@@ -19,7 +19,7 @@ const Experiences = () => {
   };
 
   return (
-    <div id="experiences" className="section titre-section">
+    <div id="experiences" className="section titre-section timeline-container">
       <h3>{t('title-experiences')}</h3>
       <VerticalTimeline>
         {experiences.map((experience, index) => {

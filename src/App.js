@@ -33,7 +33,7 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div class="app-container">
       <nav>
         <img
           src={Logo}
