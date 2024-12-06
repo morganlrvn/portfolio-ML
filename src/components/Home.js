@@ -39,7 +39,7 @@ const Home = () => {
 
           <div className="about-more-button">
             <Link to="projects" spy={true} hashSpy={true} smooth={true} duration={500} className={activeLink === 'projects' ? 'active-link' : ''} onSetActive={() => setActiveLink('projects')}>
-              {t('learn_more')}&emsp;⭣
+              {t('learn_more')}&emsp;&darr;
             </Link>
           </div>
         </div>

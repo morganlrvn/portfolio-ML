@@ -215,6 +215,6 @@ h2 {
   }
 
   .nav-links a::after{
-    bottom: -.5px;
+    bottom: -0.5px;
   }
 }
