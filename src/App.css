@@ -213,4 +213,8 @@ h2 {
     padding: 0 20px;
     /* Réduire l'espace autour des éléments */
   }
+
+  .nav-links a::after{
+    bottom: -.5px;
+  }
 }
