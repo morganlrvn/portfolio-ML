@@ -53,3 +53,15 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 768px) {
+    .switch-thumb.french {
+        left: 9px;
+    }
+}
+
+@media (max-width: 458px) {
+    .switch-thumb.french {
+        left: 6px;
+    }
+}
