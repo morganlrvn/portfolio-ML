@@ -127,3 +127,23 @@
         min-height: 100vh;
     }
 }
+
+
+.loading-screen {
+    font-family: 'Dancing Script', cursive;
+    animation: fadeInOut 2.0s ease-in-out;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
